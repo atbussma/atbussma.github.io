@@ -31,14 +31,12 @@ Okta is an Identity as a Service (IDaaS) Provider.
     1. Login Redirect URIs = http://localhost:1368/authorization-code/callback
     1. Leave the rest of the settings alone (for now).
     1. Copy the Client ID and Client Secret into the appsettings.json file
-
 ```json
 "Okta": {
     "Authority": "https://dev-XYZ.oktapreview.com/oauth2/default",
     "ClientId": "YOUR_CLIENT_ID",
     "ClientSecret": "YOUR_CLIENT_SECRET"
 }
-
 ```
     1. Select My claims.
 
