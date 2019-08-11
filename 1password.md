@@ -28,7 +28,7 @@ If gnupg is installed then it can be upgraded via the following command:
 brew upgrade gnupg
 ```
 
-<a name="1passwordcli-installation">
+<a name="1passwordcli-installation"></a>
 ### Install 1Password CLI
 
 * [Download 1Password CLI](https://app-updates.agilebits.com/product_history/CLI).
@@ -39,9 +39,9 @@ gpg --receive-keys 3FEF9748469ADBE15DA7CA80AC2D62742012EA22
 gpg --verify op.sig op
 ```
 
-** Gnupg should confirm that the binary was signed by an RSA key matching the fingerprint on the --receive-keys line (at a minimum) **
+**Gnupg should confirm that the binary was signed by an RSA key matching the fingerprint on the --receive-keys line (at a minimum)**
 
-<a name="1passwordcli-usage">
+<a name="1passwordcli-usage"></a>
 ### Using 1Password CLI
 
 [Reference](https://support.1password.com/command-line-getting-started/)
