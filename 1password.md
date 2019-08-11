@@ -3,7 +3,7 @@
 ## Table of contents
 1. [Install HomeBrew (if needed)](#user-content-homebrew-installation)
 1. [Install or Update gnupg (if needed)](#user-content-gnupg-installation)
-1. [Install 1Password CLI](#user-content-1Password-cli-installation)
+1. [Install 1Password CLI](#user-content-1password-cli-installation)
 1. [Use 1Password CLI](#user-content-1password-cli-usage)
 
 <a name="homebrew-installation"></a>
