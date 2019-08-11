@@ -3,8 +3,8 @@
 ## Table of contents
 1. [Install HomeBrew (if needed)](#user-content-homebrew-installation)
 1. [Install or Update gnupg (if needed)](#user-content-gnupg-installation)
-1. [Install 1Password CLI](#user-content-1password-cli-installation)
-1. [Use 1Password CLI](#user-content-1password-cli-usage)
+1. [Install 1Password CLI](#user-content-1passwordcli-installation)
+1. [Using 1Password CLI](#user-content-1passwordcli-usage)
 
 <a name="homebrew-installation"></a>
 ### Install homebrew (if needed)
@@ -28,7 +28,7 @@ If gnupg is installed then it can be upgraded via the following command:
 brew upgrade gnupg
 ```
 
-<a name="1password-cli-installation">
+<a name="1passwordcli-installation">
 ### Install 1Password CLI
 
 * [Download 1Password CLI](https://app-updates.agilebits.com/product_history/CLI).
@@ -41,7 +41,7 @@ gpg --verify op.sig op
 
 ** Gnupg should confirm that the binary was signed by an RSA key matching the fingerprint on the --receive-keys line (at a minimum) **
 
-<a name="1password-cli-usage">
+<a name="1passwordcli-usage">
 ### Using 1Password CLI
 
 [Reference](https://support.1password.com/command-line-getting-started/)
