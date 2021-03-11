@@ -65,3 +65,21 @@ nltk.download()
 stopwords = nltk.corpus.stopwords.words("english")
 filtered = [word for word in wordList if not word in stopwords]
 ```
+
+### Stemming
+
+```python
+ps = stem.PortStemmer()
+wordstem = ps.stem(word)
+```
+
+
+### Parts of Speech Tagging
+
+```python
+#
+#   download all packages
+#
+nltk.download()
+posTagList = nltk.pos_tag(wordList)
+```
